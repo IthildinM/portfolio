@@ -46,7 +46,8 @@ body {
     cursor: pointer;
     width: 100px;
     height: 80px;
-    background-color: #D98E04;
+    background-color: rgba(255,255,255,.15);
+    backdrop-filter: blur(8px);
     border-bottom-right-radius: 100%;
 }
 
@@ -63,8 +64,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -15px;
-    margin-left: -12px;
+    margin-top: -16px;
+    margin-left: -20px;
     transition: transform 0.7s cubic-bezier(1, 0.005, 0.25, 1);
 }
 
