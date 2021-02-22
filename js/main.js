@@ -1,5 +1,6 @@
  (function($) {
     $(document).ready(function() {
+
         /*CHECK IF LOADED */
         console.log('JS Main Ready');
 
@@ -11,6 +12,11 @@
 		 $('.content').on('click', function() {
 		     $page.removeClass('shazam');
 		 });
+
+         $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
         
     });
 
