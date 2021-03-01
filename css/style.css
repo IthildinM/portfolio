@@ -12,6 +12,11 @@ body {
     padding: 0;
     font-family: Comfortaa;
     background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Mukta', sans-serif;
 }
 
 .page {
