@@ -19,6 +19,8 @@
 
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="plugin/swipebox/src/css/swipebox.css">
+
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -26,6 +28,8 @@
 
     <!-- Vendor JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="plugin/swipebox/src/js/jquery.swipebox.js"></script>
+
 
     <!-- M.D. CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -54,15 +58,54 @@
     <div class="content_inner">
         <!-- BEGIN NAVIGATION BUTTONS-->
         <div class="contentButtons">
+          <a href="#digital"><button type="button" class="btn">Digital</button></a>
           <a href="#web"><button type="button" class="btn">Webdesign</button></a>
           <a href="#dress"><button type="button" class="btn">Fantasy Garment</button></a>
-          <a href="#typo"><button type="button" class="btn">Typography</button></a>
-          <a href="#acryl"><button type="button" class="btn">Acryl Paintings</button></a>
+          <!--<a href="#acryl"><button type="button" class="btn">Mixed Media</button></a>-->
           <a href="#treasure"><button type="button" class="btn">Chocolate Treasure</button></a>
         </div>
         <!-- END NAVIGATION BUTTONS -->
 
         <!-- BEGIN PROJECT SECTIONS -->
+
+
+        <section class="digital">
+          <h1 id="digital">Digital</h1>
+          <div class="contentText">
+              Converting my drawings to SVG's with Inkscape. 
+          </div>
+            <!-- BEGIN GALLERY -->  
+            <div class="row gallery">
+              <div class="column">
+                <a href="img/digital/drawingPizza.jpeg" class="swipebox"><img src="img/digital/drawingPizza.jpeg" alt="drawing pizza" /></a>
+              </div>
+              <div class="column">
+                <a href="img/digital/svgPizza.png" class="swipebox"><img src="img/digital/svgPizza.png" alt="svg pizza" /></a>
+              </div>
+              <div class="column">
+              </div>
+            </div>
+            <!-- END GALLERY -->
+          <div class="contentText">
+              A Coworker of mine is a Lifecoach. Since she asked me for some tipps with the website, I thought I try to make her a Logo. </br>
+              I first collected some inspirations on her website and what I think fits with them. After this I made some drafts, since she likes
+              the feather Idea the most, I focused on them. The initials are for stylistic choices. 
+          </div>
+            <!-- BEGIN GALLERY -->  
+            <div class="row gallery">
+              <div class="column">
+               <a href="img/digital/sketch.jpeg" class="swipebox"><img src="img/digital/sketch.jpeg" alt="drawing pizza" /></a>
+             </div>
+              <div class="column">
+                <a href="img/digital/first_draft_ya.png" class="swipebox"><img src="img/digital/first_draft_ya.png" alt="svg pizza" /></a>
+              </div>
+              <div class="column">
+                <a href="img/digital/choices_ya.png" class="swipebox"><img src="img/digital/choices_ya.png" alt="svg pizza" /></a>
+              </div>
+            </div>
+            <!-- END GALLERY -->
+        </section>
+
 
         <section class="web">
           <h1 id="web">Creating this Website</h1>
@@ -70,24 +113,24 @@
               The Plan and evolution of this Website.<br>
               The color Scheme was the first thing I picked out. I went with trending colors in webdesign and added some yellow accents.<br>
               It was important to me, to use colors that don't conflict with someone who has some kind of color blindness. So I tried a vew pallets to make sure the colors would still fit with each other as well.<br> 
-              In december I read about the design trend with a glass like finish. I really liked it and wanted to use it for me. I also visited some cool Websites with different animations and wanted to incorporate a moving background. 
+              In december I read about the design trend with a glass like finish. I really liked it and wanted to use it for me. I also visited some cool Websites with different animations and wanted to incorporate a moving background.
+              <br>
+              The Mockup of the Website is made with AdobeXD.
           </div>
             <!-- BEGIN GALLERY -->  
           <div class="row gallery">
             <div class="column">
-              <img src="img/process/colors.png" alt="" />
-              <img src="img/process/colorScheme.png" alt="" />
-              <img src="img/process/Website.png" alt="" />
+              <a href="img/process/colors.png" class="swipebox"><img src="img/process/colors.png" alt="Purple and yellow" /></a>
+              <a href="img/process/colorScheme.png" class="swipebox"><img src="img/process/colorScheme.png" alt="Colorblind" /></a>
+
             </div>
             <div class="column">
-              <img src="img/process/Home.png" alt="" />
-              <img src="img/process/Logo.png" alt="" />
-              <img src="img/process/OpenMenu.png" alt="" />
+              <a href="img/process/Home.png" class="swipebox"><img src="img/process/Home.png" alt="Homepage" /></a>
+              <a href="img/process/OpenMenu.png" class="swipebox"><img src="img/process/OpenMenu.png" alt="Menu opened" /></a>
             </div>
             <div class="column">
-              <img src="img/process/Photography.png" alt="" />
-              <img src="img/process/ProjectBeer.png" alt="" />
-              <img src="img/process/font.png" alt="" />
+              <a href="img/process/ProjectBeer.png" class="swipebox"><img src="img/process/ProjectBeer.png" alt="Beer Layout" /></a>
+              <a href="img/process/font.png" class="swipebox"><img src="img/process/font.png" alt="Fontchoice" /></a>
             </div>
           </div>
             <!-- END GALLERY -->
@@ -108,17 +151,17 @@
             <!-- BEGIN GALLERY -->  
             <div class="row gallery">
               <div class="column">
-                <img src="img/dress/DSC_3969.jpg" alt="" />
-                <img src="img/dress/DSC_3964.jpg" alt="" />
+                <a href="img/dress/DSC_3969.jpg" class="swipebox"><img src="img/dress/DSC_3969.jpg" alt="" /></a>
+                <a href="img/dress/DSC_3964.jpg" class="swipebox"><img src="img/dress/DSC_3964.jpg" alt="" /></a>
               </div>
               <div class="column">
-                <img src="img/dress/DSC_3911.jpg" alt="" />
-                <img src="img/dress/DSC_3915.jpg" alt="" />
-                <img src="img/dress/DSC_3966.jpg" alt="" />
+                <a href="img/dress/DSC_3911.jpg" class="swipebox"><img src="img/dress/DSC_3911.jpg" alt="" /></a>
+                <a href="img/dress/DSC_3915.jpg" class="swipebox"><img src="img/dress/DSC_3915.jpg" alt="" /></a>
+                <a href="img/dress/DSC_3966.jpg" class="swipebox"><img src="img/dress/DSC_3966.jpg" alt="" /></a>
               </div>
               <div class="column">
-                <img src="img/dress/DSC_3914.jpg" alt="" />
-                <img src="img/dress/DSC_3946.jpg" alt="" />
+                <a href="" class="swipebox"><img src="img/dress/DSC_3914.jpg" alt="" /></a>
+                <a href="img/dress/DSC_3946.jpg" class="swipebox"><img src="img/dress/DSC_3946.jpg" alt="" /></a>
               </div>
             </div>
             <!-- END GALLERY -->
@@ -135,44 +178,23 @@
             <!-- END IMAGE COMPARE -->
         </section>
 
-
-        <section class="typo">
-          <h1 id="typo">Typography</h1>
-          <div class="contentText">
-                In order to prepare for Interaction Design I wanted to go ahead and try out Typography with the Tool "InDesign" from Adobe.<br>
-                To practice I used some food related puns and lines.
-          </div>
-            <!-- BEGIN GALLERY -->  
-            <div class="row gallery">
-              <div class="column">
-                <img src="img/div/toBeer.jpg" alt="" />
-              </div>
-              <div class="column">
-                <img src="img/div/yumYum.png" alt="" />
-              </div>
-              <div class="column">
-              </div>
-            </div>
-            <!-- END GALLERY -->
-        </section>
-
-        <section class="acryl">
-          <h1 id="acryl">Chocolate Treasure</h1>
+        <!--<section class="acryl">
+          <h1 id="acryl">Mixed Media </h1>
           <div class="contentText">
               Mixed Media Pieces. Mainly with Acryl-Colors.<br>
           </div>
-            <!-- BEGIN GALLERY -->  
+            <!-- BEGIN GALLERY --
             <div class="row gallery">
               <div class="column">
               </div>
               <div class="column">
-                <img src="img/div/burn.jpg" alt="" />
+                <a href="img/div/burn.jpg" class="swipebox"><img src="img/div/burn.jpg" alt="" /></a>
               </div>
               <div class="column">
               </div>
             </div>
-            <!-- END GALLERY -->
-        </section>
+            <!-- END GALLERY --
+        </section>-->
 
         <section class="treasure">
           <h1 id="treasure">Chocolate Treasure</h1>
@@ -183,15 +205,15 @@
             <!-- BEGIN GALLERY -->  
             <div class="row gallery">
               <div class="column">
-                <img src="img/div/chocolate_chest_1.jpeg" alt="" />
-                <img src="img/div/chocolate_chest_4.jpeg" alt="" />
+                <a href="img/div/chocolate_chest_1.jpeg" class="swipebox"><img src="img/div/chocolate_chest_1.jpeg" alt="" /></a>
+                <a href="img/div/chocolate_chest_4.jpeg" class="swipebox"><img src="img/div/chocolate_chest_4.jpeg" alt="" /></a>
               </div>
               <div class="column">
-                <img src="img/div/chocolate_chest_2.jpeg" alt="" />
+                <a href="img/div/chocolate_chest_2.jpeg" class="swipebox"><img src="img/div/chocolate_chest_2.jpeg" alt="" /></a>
               </div>
               <div class="column">
-                <img src="img/div/chocolate_chest_5.jpeg" alt="" />
-                <img src="img/div/chocolate_chest_3.jpeg" alt="" />
+                <a href="img/div/chocolate_chest_5.jpeg" class="swipebox"><img src="img/div/chocolate_chest_5.jpeg" alt="" /></a>
+                <a href="img/div/chocolate_chest_3.jpeg" class="swipebox"><img src="img/div/chocolate_chest_3.jpeg" alt="" /></a>
               </div>
             </div>
             <!-- END GALLERY -->
@@ -199,5 +221,6 @@
         <!-- END PROJECT SECTIONS -->
     </div>
   </main>
+
   </body>
 </html>
