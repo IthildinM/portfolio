@@ -166,7 +166,7 @@ button.btn {
     color: white;
     backdrop-filter: blur(8px);
     line-height: 3em;
-    width: 19%;
+    width: 24%;
     margin-bottom: 70px;
 }
 
@@ -337,6 +337,26 @@ section {
     margin-bottom: 20px;
 }
 
+@media (max-width: 700px) {
+  button.btn {
+    background-color: rgba(255,255,255,.15);
+    color: white;
+    backdrop-filter: blur(8px);
+    line-height: 3em;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+section {
+    background-color: rgba(255,255,255,.15);
+    color: white;
+    backdrop-filter: blur(8px);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+  
+}
 /********** END SECTIONS **********/
 
 
